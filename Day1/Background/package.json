@@ -1,0 +1,16 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "\"this is my first api\"",
+  "license": "ISC",
+  "author": "Mukul Mehta",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"dev\"",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
