@@ -1,7 +1,8 @@
-import { useState,useRef,useEffect } from 'react'
+import { useState,useRef,useEffect, Component } from 'react'
 import Navbar from "./common/navbar"
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
-
+import Home from "./components/home"
 function App() {
   const [count, setCount] = useState(0)
   const [c,setc]=useState(false)
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <Navbar title="first"/>
+      <Home/>
         <button
           ref={btnref}
           type="button"
