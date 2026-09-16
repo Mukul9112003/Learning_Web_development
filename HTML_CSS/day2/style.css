@@ -1,0 +1,18 @@
+#title{
+    color:red;
+}
+.description{
+    color:blue;
+}
+.primary{
+    color:blue;
+}
+.secondary{
+    background-color: green;
+}
+.card{
+    font-size: 18px;
+}
+input[type="email"],input[type="text"]{
+    border: 2px solid red;
+}
