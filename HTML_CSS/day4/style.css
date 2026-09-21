@@ -1,0 +1,15 @@
+div{
+    width:350px;
+    padding:20px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin:30px auto;
+    box-sizing: border-box;
+    background-color: rgb(174, 243, 14);
+}
+button{
+    padding:10px;
+    border: 10px solid black;
+    border-radius: 10%;
+    color: #0000FF;
+}
