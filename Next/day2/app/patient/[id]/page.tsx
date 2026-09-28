@@ -3,5 +3,5 @@ type Props={
 }
 export default async function PatientDetails({params}:Props){
     const {id}=await params;
-    return <h1>Patient Id: {id}</h1>
+    return (<h1>Patient Id: {id}</h1>)
 }
